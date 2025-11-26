@@ -1,0 +1,16 @@
+{
+  "uid": "domo_embed_card",
+  "type": "card",
+  "config": {
+    "name": "Domo Dashboard",
+    "description": "Embedded Domo dashboard with private authentication",
+    "entrypoint": "/app/cards/domo-embed-card.tsx",
+    "location": "crm.record.tab",
+    "objectTypes": [
+      "CONTACT",
+      "COMPANY",
+      "DEAL"
+    ]
+  }
+}
+
